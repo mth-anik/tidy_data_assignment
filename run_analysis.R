@@ -33,5 +33,5 @@ tidy_data<-cbind(ycomb,x_extracted)
 #creating second data set
 tidy_data_tbl<-tbl_df(tidy_data)
 grp_data<-group_by(tidy_data_tbl,`Activity Names`)
-final_data<-summarise_all(grp_data,mean)
-write.table(final_data,'./summary_data.txt')
+second_data<-summarise_all(grp_data,mean)
+write.table(second_data,'./summary_data.txt')

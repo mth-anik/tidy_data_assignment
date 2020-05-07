@@ -19,4 +19,4 @@
 ### Creating second data set
 **tidy_data_tbl** : a data frame table with same contents as the tidy_data  
 **grp_data** : tidy_data_tbl grouped according to the values of 'Activity names'  
-**final_data** : second, independent tidy data set with the average of each variable for each activity and each subject  
+**second_data** : second, independent tidy data set with the average of each variable for each activity and each subject  
